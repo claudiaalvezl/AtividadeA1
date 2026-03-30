@@ -6,10 +6,15 @@ A aplicação permite realizar todas as operações de um CRUD (Create, Read, Up
 A API expõe os seguintes endpoints para manipulação do acervo de livros:
 
 Operação - Método - Endpoint - Descrição
+
 ------ - ------ - ------ - ------ 
+
 *Listar* - GET - /livros - Retorna a lista completa de livros no acervo.
+
 *Cadastrar* - POST - /livros - Adiciona um novo título ao arquivo JSON.
+
 *Atualizar* - PUT - /livros/<id> - Modifica as informações de um livro existente.
+
 *Excluir* - DELETE - /livros/<id> - Remove um registro do acervo permanentemente.
 
 ## Tecnologias e Ferramentas
